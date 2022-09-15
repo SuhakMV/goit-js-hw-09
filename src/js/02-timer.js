@@ -9,8 +9,10 @@ const valueDays = document.querySelector('[data-days]');
 const valueHr = document.querySelector('[data-hours]');
 const valueMin = document.querySelector('[data-minutes]');
 const valueSec = document.querySelector('[data-seconds]');
+
 let timerId = null;
 let selectedDate = null;
+
 btnStart.disabled = true;
 
 const options = {
